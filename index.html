@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EA SPORTS FIFA Survey</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+			
+	<div class="container"> 
+	<header class="header">
+		<h1 id="title">EA SPORTS FIFA Survey Form</h1>
+		<p id="description">
+		Thank you for taking the time to help us improve our game
+		</p>
+	</header>
+			
+		<form  action="" id="survey-form">
+			
+			<div class="form-group">
+				<label id="name-label">Name</label>
+				<input type="text" name="name" class="form-control" placeholder="Enter your name" required/>
+			</div>
+			
+			<div class="form-group">
+				<label id="email-label" for="email">Email</label>
+				<input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+			</div>
+			
+			<div class="form-group">
+				<label id="number-label" for="number">Age</label>
+				<input type="number" name="age" id="number" class="form-control" placeholder="Enter your age" required/>
+			</div>
+			
+			<div class="form-group">
+				<p>Which option best describes your current role?</p>
+				<select id="dropdown" name="role" class="form-control" required/>
+				<option value="" disabled selected>Select your current role</option>
+				<option value="beginner">Beginner</option>
+				<option value="semi-pro">Semi-Pro</option>
+				<option value="pro">Pro</option>
+				<option value="champion"> Champion</option>
+				<option value="legende">Legende</option>	
+				</select>
+			
+			<div class="form-group">
+				<p id="quest">How you come to know about FIFA 21?</p>
+				<label for="">
+					<input type="radio" name="source" value="friend" class="inputradio" checked>Friends</label>
+
+					<label for="">
+					<input type="radio" name="source" value="tv-ads" class="inputradio" checked>TV-Ads</label>
+
+					<label for="">
+					<input type="radio" name="source" value="social-media" class="inputradio" checked>Social Media</label>
+
+					<label for="">
+					<input type="radio" name="source" value="newspapers" class="inputradio" checked>Newspapers</label>
+
+					<label for="">
+					<input type="radio" name="source" value="other" class="inputradio" checked>Other</label>
+			<div class="form-group">
+				<p id="quest">What would you like us to improved in the game?</p>
+				<label for="">
+					<input type="checkbox" name="prefer" class="checkbox" value="the-players">The Players</label>
+
+					<label for="">
+					<input type="checkbox" name="prefer" class="checkbox" value="the-coaches">The Coaches</label>
+
+					<label for="">
+					<input type="checkbox" name="prefer" class="checkbox" value="ultimate-team">Ultimate Team</label>
+
+					<label for="">
+					<input type="checkbox" name="prefer" class="checkbox" value="volta">Volta</label>
+
+					<label for="">
+					<input type="checkbox" name="prefer" class="checkbox" value="career-mode">Career-Mode</label>
+
+				<div class="form-group">
+					<p id="quest">Give us your feedback</p>
+					<textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea" placeholder="Enter your feedback here..."></textarea>
+
+				<div class="form-group">
+					<button type="submit" id="submit" class="btn">Submit</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
